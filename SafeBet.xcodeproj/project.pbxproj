@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBD0A39626993FC500D1E837 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD0A39526993FC500D1E837 /* AppDelegate.m */; };
+		BBD0A39926993FC500D1E837 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD0A39826993FC500D1E837 /* SceneDelegate.m */; };
+		BBD0A39C26993FC500D1E837 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD0A39B26993FC500D1E837 /* ViewController.m */; };
+		BBD0A39F26993FC500D1E837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBD0A39D26993FC500D1E837 /* Main.storyboard */; };
+		BBD0A3A126993FC700D1E837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD0A3A026993FC700D1E837 /* Assets.xcassets */; };
+		BBD0A3A426993FC700D1E837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBD0A3A226993FC700D1E837 /* LaunchScreen.storyboard */; };
+		BBD0A3A726993FC700D1E837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD0A3A626993FC700D1E837 /* main.m */; };
+		BBD0A3B126993FC700D1E837 /* SafeBetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD0A3B026993FC700D1E837 /* SafeBetTests.m */; };
+		BBD0A3BC26993FC700D1E837 /* SafeBetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD0A3BB26993FC700D1E837 /* SafeBetUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBD0A3AD26993FC700D1E837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBD0A38926993FC500D1E837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBD0A39026993FC500D1E837;
+			remoteInfo = SafeBet;
+		};
+		BBD0A3B826993FC700D1E837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBD0A38926993FC500D1E837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBD0A39026993FC500D1E837;
+			remoteInfo = SafeBet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBD0A39126993FC500D1E837 /* SafeBet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeBet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD0A39426993FC500D1E837 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBD0A39526993FC500D1E837 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBD0A39726993FC500D1E837 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BBD0A39826993FC500D1E837 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BBD0A39A26993FC500D1E837 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBD0A39B26993FC500D1E837 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBD0A39E26993FC500D1E837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBD0A3A026993FC700D1E837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBD0A3A326993FC700D1E837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBD0A3A526993FC700D1E837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBD0A3A626993FC700D1E837 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBD0A3AC26993FC700D1E837 /* SafeBetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeBetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD0A3B026993FC700D1E837 /* SafeBetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeBetTests.m; sourceTree = "<group>"; };
+		BBD0A3B226993FC700D1E837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBD0A3B726993FC700D1E837 /* SafeBetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeBetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD0A3BB26993FC700D1E837 /* SafeBetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeBetUITests.m; sourceTree = "<group>"; };
+		BBD0A3BD26993FC700D1E837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBD0A38E26993FC500D1E837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD0A3A926993FC700D1E837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD0A3B426993FC700D1E837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBD0A38826993FC500D1E837 = {
+			isa = PBXGroup;
+			children = (
+				BBD0A39326993FC500D1E837 /* SafeBet */,
+				BBD0A3AF26993FC700D1E837 /* SafeBetTests */,
+				BBD0A3BA26993FC700D1E837 /* SafeBetUITests */,
+				BBD0A39226993FC500D1E837 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBD0A39226993FC500D1E837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBD0A39126993FC500D1E837 /* SafeBet.app */,
+				BBD0A3AC26993FC700D1E837 /* SafeBetTests.xctest */,
+				BBD0A3B726993FC700D1E837 /* SafeBetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD0A39326993FC500D1E837 /* SafeBet */ = {
+			isa = PBXGroup;
+			children = (
+				BBD0A39426993FC500D1E837 /* AppDelegate.h */,
+				BBD0A39526993FC500D1E837 /* AppDelegate.m */,
+				BBD0A39726993FC500D1E837 /* SceneDelegate.h */,
+				BBD0A39826993FC500D1E837 /* SceneDelegate.m */,
+				BBD0A39A26993FC500D1E837 /* ViewController.h */,
+				BBD0A39B26993FC500D1E837 /* ViewController.m */,
+				BBD0A39D26993FC500D1E837 /* Main.storyboard */,
+				BBD0A3A026993FC700D1E837 /* Assets.xcassets */,
+				BBD0A3A226993FC700D1E837 /* LaunchScreen.storyboard */,
+				BBD0A3A526993FC700D1E837 /* Info.plist */,
+				BBD0A3A626993FC700D1E837 /* main.m */,
+			);
+			path = SafeBet;
+			sourceTree = "<group>";
+		};
+		BBD0A3AF26993FC700D1E837 /* SafeBetTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBD0A3B026993FC700D1E837 /* SafeBetTests.m */,
+				BBD0A3B226993FC700D1E837 /* Info.plist */,
+			);
+			path = SafeBetTests;
+			sourceTree = "<group>";
+		};
+		BBD0A3BA26993FC700D1E837 /* SafeBetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBD0A3BB26993FC700D1E837 /* SafeBetUITests.m */,
+				BBD0A3BD26993FC700D1E837 /* Info.plist */,
+			);
+			path = SafeBetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBD0A39026993FC500D1E837 /* SafeBet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD0A3C026993FC700D1E837 /* Build configuration list for PBXNativeTarget "SafeBet" */;
+			buildPhases = (
+				BBD0A38D26993FC500D1E837 /* Sources */,
+				BBD0A38E26993FC500D1E837 /* Frameworks */,
+				BBD0A38F26993FC500D1E837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafeBet;
+			productName = SafeBet;
+			productReference = BBD0A39126993FC500D1E837 /* SafeBet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBD0A3AB26993FC700D1E837 /* SafeBetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD0A3C326993FC700D1E837 /* Build configuration list for PBXNativeTarget "SafeBetTests" */;
+			buildPhases = (
+				BBD0A3A826993FC700D1E837 /* Sources */,
+				BBD0A3A926993FC700D1E837 /* Frameworks */,
+				BBD0A3AA26993FC700D1E837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBD0A3AE26993FC700D1E837 /* PBXTargetDependency */,
+			);
+			name = SafeBetTests;
+			productName = SafeBetTests;
+			productReference = BBD0A3AC26993FC700D1E837 /* SafeBetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBD0A3B626993FC700D1E837 /* SafeBetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD0A3C626993FC700D1E837 /* Build configuration list for PBXNativeTarget "SafeBetUITests" */;
+			buildPhases = (
+				BBD0A3B326993FC700D1E837 /* Sources */,
+				BBD0A3B426993FC700D1E837 /* Frameworks */,
+				BBD0A3B526993FC700D1E837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBD0A3B926993FC700D1E837 /* PBXTargetDependency */,
+			);
+			name = SafeBetUITests;
+			productName = SafeBetUITests;
+			productReference = BBD0A3B726993FC700D1E837 /* SafeBetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBD0A38926993FC500D1E837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BBD0A39026993FC500D1E837 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					BBD0A3AB26993FC700D1E837 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = BBD0A39026993FC500D1E837;
+					};
+					BBD0A3B626993FC700D1E837 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = BBD0A39026993FC500D1E837;
+					};
+				};
+			};
+			buildConfigurationList = BBD0A38C26993FC500D1E837 /* Build configuration list for PBXProject "SafeBet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBD0A38826993FC500D1E837;
+			productRefGroup = BBD0A39226993FC500D1E837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBD0A39026993FC500D1E837 /* SafeBet */,
+				BBD0A3AB26993FC700D1E837 /* SafeBetTests */,
+				BBD0A3B626993FC700D1E837 /* SafeBetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBD0A38F26993FC500D1E837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD0A3A426993FC700D1E837 /* LaunchScreen.storyboard in Resources */,
+				BBD0A3A126993FC700D1E837 /* Assets.xcassets in Resources */,
+				BBD0A39F26993FC500D1E837 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD0A3AA26993FC700D1E837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD0A3B526993FC700D1E837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBD0A38D26993FC500D1E837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD0A39C26993FC500D1E837 /* ViewController.m in Sources */,
+				BBD0A39626993FC500D1E837 /* AppDelegate.m in Sources */,
+				BBD0A3A726993FC700D1E837 /* main.m in Sources */,
+				BBD0A39926993FC500D1E837 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD0A3A826993FC700D1E837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD0A3B126993FC700D1E837 /* SafeBetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD0A3B326993FC700D1E837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD0A3BC26993FC700D1E837 /* SafeBetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBD0A3AE26993FC700D1E837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBD0A39026993FC500D1E837 /* SafeBet */;
+			targetProxy = BBD0A3AD26993FC700D1E837 /* PBXContainerItemProxy */;
+		};
+		BBD0A3B926993FC700D1E837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBD0A39026993FC500D1E837 /* SafeBet */;
+			targetProxy = BBD0A3B826993FC700D1E837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBD0A39D26993FC500D1E837 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBD0A39E26993FC500D1E837 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBD0A3A226993FC700D1E837 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBD0A3A326993FC700D1E837 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBD0A3BE26993FC700D1E837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBD0A3BF26993FC700D1E837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBD0A3C126993FC700D1E837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55K2N6UZ22;
+				INFOPLIST_FILE = SafeBet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.SafeBet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBD0A3C226993FC700D1E837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55K2N6UZ22;
+				INFOPLIST_FILE = SafeBet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.SafeBet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBD0A3C426993FC700D1E837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55K2N6UZ22;
+				INFOPLIST_FILE = SafeBetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.SafeBetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeBet.app/SafeBet";
+			};
+			name = Debug;
+		};
+		BBD0A3C526993FC700D1E837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55K2N6UZ22;
+				INFOPLIST_FILE = SafeBetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.SafeBetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SafeBet.app/SafeBet";
+			};
+			name = Release;
+		};
+		BBD0A3C726993FC700D1E837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55K2N6UZ22;
+				INFOPLIST_FILE = SafeBetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.SafeBetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafeBet;
+			};
+			name = Debug;
+		};
+		BBD0A3C826993FC700D1E837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55K2N6UZ22;
+				INFOPLIST_FILE = SafeBetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.SafeBetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafeBet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBD0A38C26993FC500D1E837 /* Build configuration list for PBXProject "SafeBet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD0A3BE26993FC700D1E837 /* Debug */,
+				BBD0A3BF26993FC700D1E837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD0A3C026993FC700D1E837 /* Build configuration list for PBXNativeTarget "SafeBet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD0A3C126993FC700D1E837 /* Debug */,
+				BBD0A3C226993FC700D1E837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD0A3C326993FC700D1E837 /* Build configuration list for PBXNativeTarget "SafeBetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD0A3C426993FC700D1E837 /* Debug */,
+				BBD0A3C526993FC700D1E837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD0A3C626993FC700D1E837 /* Build configuration list for PBXNativeTarget "SafeBetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD0A3C726993FC700D1E837 /* Debug */,
+				BBD0A3C826993FC700D1E837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBD0A38926993FC500D1E837 /* Project object */;
+}
