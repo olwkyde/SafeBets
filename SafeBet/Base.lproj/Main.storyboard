@@ -112,14 +112,31 @@
         <!--Home-->
         <scene sceneID="F4Q-xa-veS">
             <objects>
-                <viewController id="UKl-nT-cj8" customClass="HomeFeedViewController" sceneMemberID="viewController">
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="UKl-nT-cj8" customClass="HomeFeedViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b5A-CQ-IwU">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="18b-Mi-c0g">
+                                <rect key="frame" x="0.0" y="56" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="vef-FB-U4L"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="jS3-pL-MXW"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="rL9-OR-h5b"/>
                         <color key="backgroundColor" systemColor="labelColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="aP2-dy-vhR"/>
+                    <navigationItem key="navigationItem" title="Home" id="aP2-dy-vhR">
+                        <barButtonItem key="leftBarButtonItem" title="Log Out" id="nRy-NL-d5H">
+                            <connections>
+                                <action selector="logOutButton:" destination="UKl-nT-cj8" id="fLi-73-JW3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="logOutButton" destination="nRy-NL-d5H" id="guV-2z-oAb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KVc-Q9-eVh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -224,7 +241,7 @@
         <!--Navigation Controller-->
         <scene sceneID="anP-1E-ESk">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1R3-2e-IwY" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="HomeFeedViewController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="1R3-2e-IwY" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="ulP-Vz-Az1"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eZF-kC-WDg">

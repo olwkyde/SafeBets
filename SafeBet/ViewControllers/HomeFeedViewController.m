@@ -6,8 +6,12 @@
 //
 
 #import "HomeFeedViewController.h"
+#import <Parse/Parse.h>
+#import "SceneDelegate.h"
+#import "LoginViewController.h"
 
 @interface HomeFeedViewController ()
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *logOutButton;
 
 
 
@@ -20,6 +24,15 @@
     // Do any additional setup after loading the view.
     
     
+}
+- (IBAction)logOutButton:(id)sender {
+    [PFUser logOutInBackgroundWithBlock:^(NSError * _Nullable error) {
+        SceneDelegate *myDelegate = (SceneDelegate *)self.view.window.windowScene.delegate;
+
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        LoginViewController *loginViewController = [storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
+        myDelegate.window.rootViewController = loginViewController;
+    }];
 }
 
 /*
