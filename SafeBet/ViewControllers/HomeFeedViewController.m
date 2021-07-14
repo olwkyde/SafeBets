@@ -9,9 +9,12 @@
 #import <Parse/Parse.h>
 #import "SceneDelegate.h"
 #import "LoginViewController.h"
+#import "EventCell.h"
+#import "APIManager.h"
 
 @interface HomeFeedViewController ()
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *logOutButton;
+@property (strong, nonatomic) NSMutableArray *arrayOfBets;
 
 
 
@@ -23,8 +26,22 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    [self fetchBets];
     
 }
+
+- (void) fetchBets  {
+    APIManager *api = [APIManager shared];
+    
+    [api fetchEventsWithCompletion:^(NSArray *bets, NSError *error)  {
+        if (error)  {
+            NSLog(@"Error fetching bets: %@", [error localizedDescription]);
+        }   else    {
+            NSLog(@"%@", bets);
+        }
+    }];
+}
+
 - (IBAction)logOutButton:(id)sender {
     [PFUser logOutInBackgroundWithBlock:^(NSError * _Nullable error) {
         SceneDelegate *myDelegate = (SceneDelegate *)self.view.window.windowScene.delegate;
