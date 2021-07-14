@@ -19,8 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) int *team2Odds; //the Head to Head odds for the second team
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 + (NSMutableArray *)eventsWithArray:(NSArray *)dictionaries;
-
-
 @end
 
 NS_ASSUME_NONNULL_END
